@@ -30,7 +30,7 @@ type Transfer struct {
 	FromAccountID int64
 	ToAccountID   int64
 	// must be positive
-	Amout int64
+	Amount int64
 	// when order created
 	CreatedAt sql.NullTime
 }
